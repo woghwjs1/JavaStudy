@@ -36,6 +36,7 @@ public class EnumMethodExample {
 		for(Week day : days) {
 			System.out.println(day);
 		}
+		
 
 	}
 
