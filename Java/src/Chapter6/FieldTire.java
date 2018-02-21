@@ -1,0 +1,30 @@
+package Chapter6;
+
+public class FieldTire {
+	//타이어 클래스
+	
+	//필드
+	public int maxRotation;			//최대 회전수(타이어 수명)
+	public int accumulatedRotation;	//누적 회전수
+	public String location;			//타이어 위치
+	
+	//생성자
+	public FieldTire(String location, int maxRotation) {
+		this.location = location;
+		this.maxRotation = maxRotation;
+	}
+	
+	//메소드
+	public boolean roll() {
+		++accumulatedRotation;
+		if(accumulatedRotation < maxRotation) {
+			System.out.println("타이어 수명 : " + (maxRotation - accumulatedRotation));
+			return true;
+		}else {
+			System.out.println("*** " + location + "Tire 펑크 ***");
+			return false;
+		}
+	}
+	
+	
+}
