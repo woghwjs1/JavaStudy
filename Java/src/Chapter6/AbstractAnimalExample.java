@@ -22,6 +22,7 @@ public class AbstractAnimalExample {
 		animalSound(new AbstractAnimalCat());
 		
 	}
+	
 	public static void animalSound(AbstractAnimal animal) {
 		animal.sound();
 	}
