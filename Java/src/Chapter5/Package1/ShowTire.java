@@ -1,5 +1,5 @@
 package Chapter5.Package1;
 
-public class ShowTire {
+public class ShowTire extends Tire{
 
 }
