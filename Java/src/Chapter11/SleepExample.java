@@ -8,7 +8,7 @@ public class SleepExample {
 		Toolkit toolkit = Toolkit.getDefaultToolkit();
 		for(int i=0; i<10; i++) {
 			toolkit.beep();
-			try { Thread.sleep(3000);/*0.5초간 정지*/} catch (Exception e) {	}
+			try { Thread.sleep(3000);/*3초간 정지*/} catch (Exception e) {	}
 		}
 	}
 
