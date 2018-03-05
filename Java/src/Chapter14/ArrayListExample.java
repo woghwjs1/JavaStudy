@@ -35,7 +35,7 @@ public class ArrayListExample {
 		list.remove(2);	//2번 인덱스의 객체(Database) 삭제됨
 		list.remove(2);	//2번 인덱스의 객체(Servlet/JSP) 삭제됨
 		list.remove("iBATIS");
-		
+		//
 		for(int i=0; i<list.size(); i++) {	//저장된 총 객체수만큼 루핑
 			String str = list.get(i);
 			System.out.println(i + ": " + str);
