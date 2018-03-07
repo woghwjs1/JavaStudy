@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.stream.Stream;
 
 public class ParallelExample {
-	//병렬 처리
+	// 병렬 처리
 	public static void main(String[] args) {
 		List<String> list = Arrays.asList(
 				"홍길동", "신용권", "김자바", "홍두께", "람다식"				

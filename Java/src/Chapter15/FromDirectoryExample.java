@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 import java.util.stream.Stream;
 
 public class FromDirectoryExample {
-	//디렉토리 내용을 소스로 하는 스트림
+	// 디렉토리 내용을 소스로 하는 스트림
 	public static void main(String[] args) throws IOException{
 		Path path = Paths.get("C:/JavaProgramming/source");
 		Stream<Path> stream = Files.list(path);

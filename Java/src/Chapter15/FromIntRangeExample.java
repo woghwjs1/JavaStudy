@@ -3,7 +3,7 @@ package Chapter15;
 import java.util.stream.IntStream;
 
 public class FromIntRangeExample {
-	//정수 범위를 소스로 하는 스트림
+	// 정수 범위를 소스로 하는 스트림
 	public static int sum;
 	public static void main(String[] args) {
 		IntStream stream = IntStream.rangeClosed(1, 100)/*이부분임*/;

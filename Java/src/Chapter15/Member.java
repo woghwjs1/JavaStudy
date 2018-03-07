@@ -1,7 +1,7 @@
 package Chapter15;
 
 public class Member {
-	//회원 클래스
+	// 회원 클래스
 	public static int MALE = 0;
 	public static int FEMALE = 1;
 	

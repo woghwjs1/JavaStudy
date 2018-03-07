@@ -55,3 +55,31 @@ public class WildCardExample {
 		//registerCourseWorker(highStudentCourse);	//(X) 직장인과 일반인만 등록가능
 	}
 }
+
+class Person{
+	String name;
+	public Person(String name) {
+		this.name = name;
+	}
+}
+
+class Worker{
+	String name;
+	public Worker(String name) {
+		this.name = name;
+	}
+}
+
+class Student{
+	String name;
+	public Student(String name) {
+		this.name = name;
+	}
+}
+
+class HighStudent{
+	String name;
+	public HighStudent(String name) {
+		this.name = name;
+	}
+}

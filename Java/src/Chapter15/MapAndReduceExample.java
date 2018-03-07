@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class MapAndReduceExample {
-	//吝埃 贸府客 弥辆 贸府
+	// 吝埃 贸府客 弥辆 贸府
 	public static void main(String[] args) {
 		List<Student> studentList = Arrays.asList(
 				new Student("全辨悼", 10),

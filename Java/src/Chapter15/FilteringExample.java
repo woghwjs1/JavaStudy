@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class FilteringExample {
-	//필터링
+	// 필터링
 	public static void main(String[] args) {
 		List<String> names = Arrays.asList("홍길동", "홍두께", "박나래", "김나라", "장나라");
 		

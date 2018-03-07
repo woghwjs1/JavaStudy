@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.stream.Stream;
 
 public class IteratorVsStreamExample {
-	//Iterator와 Stream 순차 처리 코드
+	// Iterator와 Stream 순차 처리 코드
 	public static void main(String[] args) {
 		List<String> list = Arrays.asList("홍길동", "신용권", "김자바");
 		

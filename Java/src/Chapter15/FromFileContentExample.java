@@ -11,7 +11,7 @@ import java.nio.file.Paths;
 import java.util.stream.Stream;
 
 public class FromFileContentExample {
-	//파일 내용을 소스로 하는 스트림
+	// 파일 내용을 소스로 하는 스트림
 	public static void main(String[] args) throws IOException{
 		//파일의 경로 정보를 가지고 있는 Path 객체 생성
 		Path path = Paths.get("src/Chapter15/linedata.txt");

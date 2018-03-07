@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class StreamPiprlinesExample {
-	//스트림 파이프라인
+	// 스트림 파이프라인
 	public static void main(String[] args) {
 		List<Member> list = Arrays.asList(
 				new Member("홍길동", Member.MALE, 30),

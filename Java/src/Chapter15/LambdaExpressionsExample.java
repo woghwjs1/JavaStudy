@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.stream.Stream;
 
 public class LambdaExpressionsExample {
-	//요소 처리를 위한 람다식
+	// 요소 처리를 위한 람다식
 	public static void main(String[] args) {
 		List<Student> list = Arrays.asList(
 				new Student("홍길동", 90),
