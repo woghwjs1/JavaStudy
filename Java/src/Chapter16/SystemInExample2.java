@@ -3,7 +3,7 @@ package Chapter16;
 import java.io.InputStream;
 
 public class SystemInExample2 {
-	//콘솔에서 입력한 한글 알아내기
+	// 콘솔에서 입력한 한글 알아내기
 	public static void main(String[] args) throws Exception{
 		InputStream is = System.in;
 		

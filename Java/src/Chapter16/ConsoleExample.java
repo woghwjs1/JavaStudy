@@ -3,7 +3,7 @@ package Chapter16;
 import java.io.Console;
 
 public class ConsoleExample {
-	//아이디와 패스워드를 콘솔로부터 읽음
+	// 아이디와 패스워드를 콘솔로부터 읽음
 	public static void main(String[] args) {
 		Console console = System.console();
 		

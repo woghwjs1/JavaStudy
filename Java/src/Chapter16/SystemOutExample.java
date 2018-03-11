@@ -8,7 +8,7 @@ public class SystemOutExample {
 		OutputStream os = System.out;
 		
 		for(byte b=48; b<58; b++) {
-			os.write(b);//아스키코드 48에서 57까지의 문자를 출력
+			os.write(b);// 아스키코드 48에서 57까지의 문자를 출력
 		}
 		os.write(10);//라인피드(10)을 출력하면 다음 행으로 넘어간다.
 		

@@ -3,7 +3,7 @@ package Chapter16;
 import java.io.FileInputStream;
 
 public class FileInputStreamExample {
-	//텍스트 파일을 읽고 출력
+	// 텍스트 파일을 읽고 출력
 	public static void main(String[] args) {
 		try {
 			FileInputStream fis = new FileInputStream(

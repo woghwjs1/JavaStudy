@@ -3,7 +3,7 @@ package Chapter16;
 import java.io.InputStream;
 
 public class SystemInExample1 {
-	//콘솔에서 입력한 번호 알아내기
+	// 콘솔에서 입력한 번호 알아내기
 	public static void main(String[] args) throws Exception{
 		System.out.println("== 메뉴 ==");
 		System.out.println("1. 예금 조회");

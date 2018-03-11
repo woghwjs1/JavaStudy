@@ -6,7 +6,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class FileExample {
-	//File 클래스를 이용한 파일 및 디렉토리 정보 출력
+	// File 클래스를 이용한 파일 및 디렉토리 정보 출력
 	public static void main(String[] args) throws Exception{
 		File dir = new File("C:/temp/Dir");
 		File file1 = new File("C:/temp/file1.txt");
